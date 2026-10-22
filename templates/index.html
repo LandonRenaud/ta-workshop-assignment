@@ -12,6 +12,11 @@
 
         <div class="task-input">
             <input type="text" id="task-title" placeholder="Enter a new task...">
+            <select id="task-priority" aria-label="Task priority">
+                <option value="Low">Low</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="High">High</option>
+            </select>
             <button onclick="addTask()">Add</button>
         </div>
 
